@@ -77,6 +77,8 @@ nav ul li a { text-decoration: none; color: var(--text-main); font-weight: 500; 
 
 .skill-category h4 { color: var(--accent); margin-bottom: 10px; }
 
+.skill-category:hover { transform: translateY(-10px); border-color: var(--accent); transition: transform 1s ease-in-out;} */
+
 .projects { padding: 50px 8%; }
 .project-container {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px;
